@@ -26,7 +26,7 @@ groupadd GRP_VEN
 groupadd GRP_SEC
 
 echo "4. Criando usuários..."
-# Alterado de -crypt para -6 para compatibilidade com Linux novos
+
 SENHA=$(openssl passwd -6 Senha123)
 
 # GRP_ADM
